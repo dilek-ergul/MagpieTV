@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGPIE-TV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/import.css">
+</head>
+<body>
+
+    <a href="" id="top"></a>
+    <a href="#top" id="scroll-icon"><i class="fas fa-chevron-circle-up"></i></a>
+   
+    <header class="main-header">
+        <div id="main-nav" class="container">
+            <a href="#" class="main-header__logo">MagpieTV</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="#" class="btn btn-primary">Movies</a>
+                    </li>
+                    <li class="main-nav__item ">
+                        <a href="#" class="btn btn-primary">TV Shows</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--login">
+                        <a href="register.html" class="btn btn-secondary">Login</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" onclick="displayMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+
+        <section id="showcase">
+            <div class="showcase-container">
+                <h1>Welcome to MagpieTV!!</h1>
+                <h3>Millions of movies, TV shows and people to discover. Explore now!</h3>
+            </div>
+        </section>
+
+        <section id="how-it-works">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">How Does It Work?</h2>
+                    <p>We will show you step by step how to start watching your favourite movies & TV shows starting now!</p>
+                </div>
+
+                <div class="row">
+                    <div class="icon-box col-3">
+                        <i class="fa-solid fa-arrow-right-to-bracket fa-xl"></i>
+                        <h3>Register</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id cum a incidunt vitae accusantium natus.</p>
+                    </div>
+                    <div class="icon-box col-3">
+                        <i class="fa-brands fa-buffer fa-xl"></i>
+                        <h3>Choose a Plan</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id cum a incidunt vitae accusantium natus.</p>
+                    </div>
+                    <div class="icon-box col-3">
+                        <i class="fa-solid fa-tv fa-xl"></i>
+                        <h3>Enjoy MagpieTV</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id cum a incidunt vitae accusantium natus.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="row">
+                <div class="col-2 features__left"></div>
+                <div class="col-2 features__right">
+                    <h2 class="section-title">Watch All Movies & TV Shows once they get released!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, unde id sint quasi dolore dicta dignissimos, vitae consectetur ex in earum nulla totam est tempora nemo? Aspernatur ex reiciendis at et maxime. Est possimus minus ipsam sit natus hic mollitia.</p>
+                    <a href="#" class="btn btn-primary">View Features</a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="plans">
+            <h2 class="section-title">Become A Premium Member</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 plan plan-side">
+                        <div class="inner-plan">
+                            <h2>Free</h2>
+                            <h3>0/month</h3>
+                            <ul class="plan__features">
+                                <li>HD available</li>
+                                <li>Unlimited Movies and TV shows</li>
+                                <li>Watch on your phone & tablet</li>
+                                <li>Download and watch offline</li>
+                                <li>Screens you can watch</li>
+                                <li>First Month Free</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-outline-secondary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 plan">
+                        <div class="inner-plan recommended__plan">
+                            <h2 class="plan__badge">Recommended</h2>
+                            <h2>Premium</h2>
+                            <h3>$9.99/month</h3>
+                            <ul class="plan__features">
+                                <li>HD available</li>
+                                <li>Unlimited Movies and TV shows</li>
+                                <li>Watch on your phone & tablet</li>
+                                <li>Download and watch offline</li>
+                                <li>Screens you can watch</li>
+                                <li>First Month Free</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-outline-primary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 plan plan-side">
+                        <div class="inner-plan">
+                            <h2>Family Plan</h2>
+                            <h3>$19.99/month</h3>
+                            <ul class="plan__features">
+                                <li>HD available</li>
+                                <li>Unlimited Movies and TV shows</li>
+                                <li>Watch on your phone & tablet</li>
+                                <li>Download and watch offline</li>
+                                <li>Screens you can watch</li>
+                                <li>First Month Free</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-outline-secondary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="counters">
+            <div class="row counter">
+                <div class="col-3">
+                    <span class="counter__item">927</span>
+                    <h4>Movies</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counter__item">1217</span>
+                    <h4>TV Shows</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counter__item">547</span>
+                    <h4>Members</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="movies">
+            <h2 class="section-title">Latest Movies & TV Shows</h2>
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img class="card-img" src="../IMG/poster-1.jpeg" alt="">
+                            <div class="card-body">
+                                <h2>Star Wars</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aliquam sit possimus! Eaque facere aspernatur excepturi fuga ea ducimus quidem suscipit natus dicta. Earum, sapiente!</p>
+                                <div>
+                                    <button class="btn btn-primary">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img class="card-img" src="../IMG/poster-2.jpeg" alt="">
+                            <div class="card-body">
+                                <h2>The Brain</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aliquam sit possimus! Eaque facere aspernatur excepturi fuga ea ducimus quidem suscipit natus dicta. Earum, sapiente!</p>
+                                <div>
+                                    <button class="btn btn-primary">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img class="card-img" src="../IMG/poster-3.jpeg" alt="">
+                            <div class="card-body">
+                                <h2>The Mummy</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aliquam sit possimus! Eaque facere aspernatur excepturi fuga ea ducimus quidem suscipit natus dicta. Earum, sapiente!</p>
+                                <div>
+                                    <button class="btn btn-primary">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img class="card-img" src="../IMG/poster-4.jpeg" alt="">
+                            <div class="card-body">
+                                <h2>Daredevil</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aliquam sit possimus! Eaque facere aspernatur excepturi fuga ea ducimus quidem suscipit natus dicta. Earum, sapiente!</p>
+                                <div>
+                                    <button class="btn btn-primary">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 footer-links">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 footer-socials">
+                    <ul>
+                        <li><a href="#" class="fa-brands fa-facebook-f fa-xl" style="color: #74C0FC;"></a></li>
+                        <li><a href="#" class="fa-brands fa-twitter fa-lg" style="color: #74C0FC;"></a></li>
+                        <li><a href="#" class="fa-brands fa-instagram fa-xl" style="color: #f77ad5;"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById("main-nav");
+            link.classList.toggle("responsive");
+        }
+    </script>
+
+</body>
+</html>

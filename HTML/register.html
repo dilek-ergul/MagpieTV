@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/import.css">
+    <link rel="stylesheet" href="../CSS/form.css">
+    
+</head>
+<body>
+
+    <a href="" id="top"></a>
+    <a href="#top" id="scroll-icon"><i class="fas fa-chevron-circle-up"></i></a>
+   
+    <header class="main-header">
+        <div id="main-nav" class="container">
+            <a href="index.html" class="main-header__logo">MagpieTV</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="#" class="btn btn-primary">Movies</a>
+                    </li>
+                    <li class="main-nav__item ">
+                        <a href="#" class="btn btn-primary">TV Shows</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--login">
+                        <a href="#" class="btn btn-secondary">Login</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" onclick="displayMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="signup-page">
+        <div class="container">
+            <h1 class="signup-title">Create Your Account</h1>
+            <form action="" class="signup-form">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname">
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+
+                <label for="gender">Gender</label>
+                <select name="" id="gender">
+                    <option value="">Select</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="transgender">Transgender</option>
+                    <option value="non-binary">Non-Binary</option>
+                    <option value="prefer-not-to-say">Prefer not to say.</option>
+                </select>
+
+                <input type="checkbox" name="" id="agree-terms">
+                <label for="agree-terms">Agree to <a href="#">Terms & Conditions</a></label>
+
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 footer-links">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 footer-socials">
+                    <ul>
+                        <li><a href="#" class="fa-brands fa-facebook-f fa-xl" style="color: #74C0FC;"></a></li>
+                        <li><a href="#" class="fa-brands fa-twitter fa-lg" style="color: #74C0FC;"></a></li>
+                        <li><a href="#" class="fa-brands fa-instagram fa-xl" style="color: #f77ad5;"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById("main-nav");
+            link.classList.toggle("responsive");
+        }
+    </script>
+
+</body>
+</html>
